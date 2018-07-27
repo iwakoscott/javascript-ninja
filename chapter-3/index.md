@@ -20,7 +20,7 @@ function handleClick() {
 ```javascript
 function sortAsc(a, b) {
   return a - b;
-} // this is a function declaration.
+} // this is a function expression because it is being declared within the arguments of a function.
 
 (a, b) => b - a; // this is an arrow function.
 
@@ -45,7 +45,7 @@ function(){} // function expression
     * `test()` => `a = undefined b = undefined c = []`
     * _Looks like in both cases, c returns an array which is contrary to my understanding before. I thought this would return an object!_
 
-5.  `message1`? `message2?`
+5.  `message1` ? `message2?`
 
 ```javascript
 function getNinjaWieldingWeapon(ninja, weapon = "katana") {
